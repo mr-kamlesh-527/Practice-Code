@@ -10,4 +10,5 @@ public class Ascii {
         System.out.println("Ascii value of "+ch+" is = "+a);
 
     }
+
 }
