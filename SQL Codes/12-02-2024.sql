@@ -16,3 +16,7 @@ select * from emp where ename not like 'k%';
 alter table emp add eadress varchar(50);
 ---alter drop query----
 alter table emp drop column eadress;
+--- union set operator ---
+ select * from emp union select * from emp1;
+--- union all set operator ---
+ select * from emp union all select * from emp1;
