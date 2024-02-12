@@ -12,3 +12,7 @@ select * from emp where ename like 'k%';
 select * from emp where ename like '_a%';
 --- not like query ---
 select * from emp where ename not like 'k%';
+---alter add query----
+alter table emp add eadress varchar(50);
+---alter drop query----
+alter table emp drop column eadress;
