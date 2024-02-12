@@ -1,0 +1,14 @@
+---- distinct query ---
+select distinct * from emp;
+--- in query ---
+select * from emp where eid in(1, 6, 4);
+--- not in query ---
+ select * from emp where eid not in(1, 6, 4);
+--- between query ---
+select * from emp where eid between 3 and 5;
+--- like query first letter ---
+select * from emp where ename like 'k%';
+--- like query second letter ---
+select * from emp where ename like '_a%';
+--- not like query ---
+select * from emp where ename not like 'k%';
