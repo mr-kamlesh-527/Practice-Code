@@ -13,6 +13,3 @@ LEFT JOIN salaries ON employyes.empid = salaries.empid;
 select employees.empiid, empname, empdepartment, salaryamount from employees 
 RIGHT JOIN salaries ON employees.empid = salary.empid;
 
-4) Full Join
-select employees.empid, empname, empdepartment, salaryamount from employees
-FULL JOIN salaries ON employees.empid = salaries.empid;
