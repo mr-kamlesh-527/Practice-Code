@@ -20,5 +20,3 @@ alter table emp drop column eadress;
  select * from emp union select * from emp1;
 --- union all set operator ---
  select * from emp union all select * from emp1;
---- INTERSECT set operator ---
-select * from emp INTERSECT select * from emp1;
